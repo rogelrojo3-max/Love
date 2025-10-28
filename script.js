@@ -5,7 +5,7 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
     question.innerHTML = "Yes, I Love You";
-    gif.src = "https://64.media.tumblr.com/5f2db4f2bbf3d466af3de72bf0bf952d/tumblr_inline_plv58veOFZ1rga9qq_400.gif";
+    gif.src = "https://media3.giphy.com/media/LoTu2rQPpj7CeSQztG/source.gif";
 });
 noBtn.addEventListener("mouseover", () => {
     const noBtnX = noBtn.getBoundingClientRect();
@@ -19,3 +19,4 @@ noBtn.addEventListener("mouseover", () => {
     noBtn.style.top = randomY + "px";
 
 });
+
