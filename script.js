@@ -4,7 +4,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "Yaayy I Love You";
+    question.innerHTML = "Yes, I Love You";
     gif.src = "https://64.media.tumblr.com/5f2db4f2bbf3d466af3de72bf0bf952d/tumblr_inline_plv58veOFZ1rga9qq_400.gif";
 });
 noBtn.addEventListener("mouseover", () => {
@@ -17,4 +17,5 @@ noBtn.addEventListener("mouseover", () => {
 
     noBtn.style.left = randomX + "px";
     noBtn.style.top = randomY + "px";
+
 });
